@@ -9,9 +9,9 @@ My final SQL script for ranking cities is in the file [3_cities_statistics.sql](
 
 One of the key metrics in product analytics is revenue. It is not always the primary metric, as businesses may focus on different goals at different stages of their development (for example, aiming for rapid growth to establish a market presence, reducing expenses during a crisis, or working on user retention). However, revenue is always considered as one of the main metrics.
 
-The files provided contain data for 10 months, and besides revenue and the mere fact of reservation creation, we almost don't have any other quantitative data. Therefore, I decided to focus simply on the metric **"how much total revenue the company earned in each city for the given period"**. In the final result, the cities are ordered by it.
+The files provided contain data for 10 months, and besides revenue and the mere fact of reservation creation, we almost don't have any other quantitative data. Therefore, I decided to focus simply on the metric **"how much total revenue the company earned in each city for the given period"**. In the final result, the cities are ordered by this total revenue.
 
-However, it is important not to look at just one metric. When comparing the top cities in the list, we are also interested in how many reservations were made in each city and how much revenue, on average, each reservation brings to that city. Such data will complement the picture and provide more information for making business decisions. Additionally, I added columns with rankings by different metrics so one can quickly understand from the table who is the leader not just in total revenue, but also, for example, in the number of reservations, the number of unique customers, or the number of active merchants.
+However, it is important not to look at just one metric. When comparing the top cities in the list, we are also interested in how many reservations were made in each city and how much revenue, on average, each reservation brings to that city. Such data will complement the picture and provide more information for making business decisions. Additionally, I added columns with rankings by different metrics so one could quickly understand from the table who is the leader not just in total revenue, but also, for example, in the number of reservations, the number of unique customers, or the number of active merchants.
 
 Below is a list with a brief description of all the fields of the final table:
 1. **city**: The name of the city where the reservations were made.
@@ -41,10 +41,10 @@ My dashboard is located [here on Tableau Public](https://public.tableau.com/app/
 
 Like in the first task, I decided to focus on revenue as one of the most important metrics for business. Additionally, I suggest monitoring the number of reservations, as this is Quandoo's main service, so it makes sense to track its progress. Besides total revenue, I recommend tracking the median revenue of a single reservation (often referred to as "average," but I suggest the median as a better alternative to the mean due to its resistance to outliers). Firstly, it would be ideal if the median revenue does not decrease over time, and even better if it increases. Secondly, it's a useful metric for comparing different sources of reservations.
 
-On the dashboard, I have presented these three metrics both grouped for the entire dataset and broken down by countries and marketing channels. On the left panel of the dashboard are filters, so if you want, for example, to view metrics broken down by marketing channels within a single country, it can easily be done.
+On the dashboard, I have presented these three metrics both grouped for the entire dataset and broken down by countries and marketing channels. On the left panel of the dashboard are filters, so if you want, for example, to view metrics broken down by marketing channels within a single country, it could be done easily.
 
-In the top right corner, I have displayed overall statistics for the main entities of the service - revenue, reservations, customers, merchants.
+In the top right corner, I have displayed overall statistics for the main entities of the service – revenue, reservations, customers, merchants.
 
 I have also added two maps to the dashboard, by countries and by cities, to better represent the service's geography.
 
-At the bottom is a section with charts that do not directly affect the company's performance but are useful for understanding the data structure.
+At the bottom is a section with charts that do not directly affect the company's performance but are useful for understanding the nature of this data.
