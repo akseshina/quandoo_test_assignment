@@ -3,7 +3,7 @@
 ## Question 1:
 > Write an SQL query (or queries) to identify the most important cities for our company.
 
-I have created two tables in the PostgreSQL 16 database (see scripts [1_create_merchants_table.sql](https://github.com/akseshina/quandoo_test_assignment/blob/main/1_create_merchants_table.sql) and [2_create_reservations_table.sql](https://github.com/akseshina/quandoo_test_assignment/blob/main/2_create_reservations_table.sql)) and then loaded data into them from files.
+I have created two tables in the PostgreSQL 16 database (see scripts [1_create_merchants_table.sql](https://github.com/akseshina/quandoo_test_assignment/blob/main/1_create_merchants_table.sql) and [2_create_reservations_table.sql](https://github.com/akseshina/quandoo_test_assignment/blob/main/2_create_reservations_table.sql)) and then loaded data into them from the files.
 
 My final SQL script for ranking cities is in the file [3_cities_statistics.sql](https://github.com/akseshina/quandoo_test_assignment/blob/main/3_cities_statistics.sql). The resulting table from this script is in the file [cities_statistics.csv](https://github.com/akseshina/quandoo_test_assignment/blob/main/cities_statistics.csv).
 
